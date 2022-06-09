@@ -14,19 +14,17 @@ const Main: React.FC = () => {
   // }, [location]);
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <RoutesList />
       </main>
       {/* <Footer /> */}
-    </div>
+    </>
   );
 };
 const App: React.FC = () => {
-  useEffect(() => {
-    console.log("does it load");
-  });
+
   return (
     <BrowserRouter>
       <Main></Main>
