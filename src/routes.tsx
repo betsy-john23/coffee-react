@@ -1,12 +1,15 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Login from './modules/login/login';
 
 
 const RoutesList: React.FC = () => {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Login />} />
+
         {/* <Route path="/login" element={<Login />} />
         <Route path="/" element={<Dashboard />} />
         <Route path="/users" element={<Users />} />
@@ -20,3 +23,4 @@ const RoutesList: React.FC = () => {
 };
 
 export default RoutesList;
+
