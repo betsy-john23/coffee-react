@@ -1,0 +1,41 @@
+.login-box-spacing {
+    padding-top: 50px;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.login-input-bx {
+    width: 20pc;
+    margin: 5px;
+}
+
+.login-btn {
+    width: 13pc;
+    background-color: rgb(113, 124, 124);
+    border-radius: 15px;
+    color: antiquewhite;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.login-text {
+    color: rgb(96, 117, 117);
+}
+.row-outer-height {
+   height: 13pc;
+}
+.App {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.boxHeight {
+    height: 280px;
+}
+.rowHeight {
+    height: 60px;
+    padding: 20px;
+    margin-bottom: 10px;
+}

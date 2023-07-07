@@ -15,9 +15,9 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
 
 const Header: React.FC = () => {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <StyledToolbar>
+        <Box sx={{ flexGrow: 1 }} >
+            <AppBar position="static" >
+                <StyledToolbar className="header-bgc">
                     <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1, alignSelf: 'flex-end' }}>
                         Coffee
                     </Typography>
